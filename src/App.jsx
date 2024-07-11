@@ -4,6 +4,9 @@ import Hero1 from "./components/Hero1.jsx";
 import Hero2 from "./components/Hero2.jsx";
 import HowTo from "./components/HowTo.jsx";
 import Menu from "./components/Menu.jsx";
+import Faq from "./components/Faq.jsx";
+import Contact from "./components/Contact.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
@@ -14,6 +17,9 @@ function App() {
       <Hero2></Hero2>
       <HowTo></HowTo>
       <Menu></Menu>
+      <Faq></Faq>
+      <Contact></Contact>
+      <Footer></Footer>
     </div>
   );
 }
